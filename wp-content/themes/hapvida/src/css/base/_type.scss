@@ -1,0 +1,42 @@
+/***********************************
+*
+*	Type
+*
+************************************/
+
+p, ul, ol, hr, table, form, pre,
+h1, h2 {
+	margin-bottom: 1.5em;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+.title {
+	margin: rem(24) 0;
+	color: $c-title;
+
+	font-size: rem(17);
+	text-transform: uppercase;
+}
+
+.double-arrow {
+	list-style: none;
+	li:before {
+		content: ">>";
+		display: inline-block;
+		margin-right: 8px;
+        color: $c-brand;
+	}
+}

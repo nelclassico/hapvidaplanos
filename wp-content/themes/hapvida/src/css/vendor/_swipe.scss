@@ -1,0 +1,50 @@
+/* *************************************** *
+*
+*	Swipe
+* CSS para o slideshow usado na Home
+* Contém:
+*   .swipe
+*   .swipe-wrap
+*   .swipe-wrap > div
+*
+* **************************************** */
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+.swipe-bullets {
+  margin: 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 34px;
+  right:  34px;
+
+  list-style: none;
+  text-align: right;
+  li {
+    display: inline-block;
+    width:  18px;
+    height: 18px;
+    margin-left: 16px;
+
+    background: $c-bullets;
+    border-radius: 100px;
+    &.is-active {
+      background: $c-bullets-active;
+    }
+  }
+}

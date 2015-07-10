@@ -1,0 +1,148 @@
+/* *************************************** *
+*
+*	Header
+* Contém:
+*   .site-header
+*   .logo-hapvida
+*   .logo-sl91
+*   .brands
+*   .city-selector
+*   .header-cta
+*
+*
+* **************************************** */
+
+.site-header {
+  padding-top: rem(30,14);
+  @media only screen and (min-width: $vp-large) {
+    padding-top: 1rem;
+  }
+}
+
+
+
+.logo-hapvida,
+.logo-sl91 {
+  float: left;
+  padding-right: 18px;
+  @media only screen and (min-width: $vp-large) {
+    padding-right: 34px;
+  }
+}
+
+.brands:after {
+  @extend %clearfix;
+  @media only screen and (min-width: $vp-large) {
+    content: none;
+    display: none;
+  }
+}
+
+.city-selector {
+  width: 100%;
+  width: calc(100% + 28px);
+  padding: em(10,14);
+  padding-left: 34px;
+  margin-top: em(26,14);
+  margin-left: - rem(14,14);
+
+  background: $c-bg;
+  text-transform: uppercase;
+  @media only screen and (min-width: $vp-large) {
+    width: auto;
+    float: left;
+    padding: 0;
+    padding-top: 2.45em;
+    margin: 0;
+
+    color: $c-menu-a;
+    background: transparent;
+    span {
+      display: block;
+    }
+  }
+}
+
+.city-selected {
+  font-size: em(13,16);
+  &:after {
+    content: " - ";
+  }
+  @media only screen and (min-width: $vp-large) {
+    font-size: 1rem;
+    &:after {
+      content: "";
+    }
+  }
+}
+
+.city-selection {
+  font-size: em(13,16);
+}
+
+.logo-sl91 {
+  padding-top: 8px;
+  p {
+    margin-top: 0;
+    margin-bottom: 1.8em;
+    font-size: em(9,16);
+  }
+  @media only screen and (min-width: $vp-large) {
+    padding-top: 0;
+  }
+}
+
+
+
+
+.header-cta {
+  display: none;
+  &:after {
+    @extend %clearfix;
+  }
+  p {
+    display: none;
+  }
+  @media only screen and (min-width: $vp-large-mid) {
+    // Abelha
+    &:before {
+      content: "";
+      position: absolute;
+      top:   1px;
+      right: 0;
+      width:  124px;
+      height: 198px;
+      z-index: 100;
+      pointer-events: none;
+
+      background: url(img/figure-bee.png) top left no-repeat;
+    }
+    .btn {
+      position: relative;
+      top: 5px;
+      margin-right: 90px;
+    }
+  }
+  @media only screen and (min-width: $vp-large-plus) {
+    p {
+      display: block;
+    }
+  }
+  @media only screen and (min-width: $vp-large) {
+    display: block;
+    position: relative;
+    float: right;
+    p {
+      float: left;
+      margin-right: em(22,24);
+      margin-bottom: 0;
+
+      color: $c-menu-a;
+      font-size: rem(24);
+      text-transform: uppercase;
+    }
+    span {
+      font-size: em(18.4,24);
+    }
+  }
+}

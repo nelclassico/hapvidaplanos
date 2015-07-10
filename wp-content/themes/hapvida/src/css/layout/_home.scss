@@ -1,0 +1,61 @@
+/* *************************************** *
+*
+*	Home layouts
+* Contém:
+*   .home
+*     .content-wrap
+*   .plan-types
+*   .plan-title
+*   .plan-info
+*   .plan-logo
+*
+*
+* **************************************** */
+
+.home {
+  .content-wrap {
+    padding: 0;
+  }
+  .site-footer {
+    margin-top: 0;
+  }
+}
+
+.plan-types {
+  overflow: hidden;
+
+  color: $c-menu-a;
+  background: $c-bg;
+  text-align: center;
+}
+
+.plan-title {
+  margin: 0;
+  padding: rem(48) rem(16);
+
+  color: $c-menu-a;
+}
+
+.plan-logo {
+  height: rem(180);
+  margin-left: -1rem;
+  margin-right: -1rem;
+
+  background: #fff;
+  img {
+    display: inline-block;
+    margin-top: 45px;
+  }
+}
+
+.plan-one p:last-child {
+  @media only screen and (min-width: $vp-large) {
+    margin-top: 66px;
+  }
+}
+
+.plan-three p:last-child {
+  @media only screen and (min-width: $vp-large) {
+    margin-top: 45px;
+  }
+}

@@ -1,0 +1,19 @@
+/* *************************************** *
+*
+*	Menu
+* Contém:
+*   .icon-phone
+*
+* **************************************** */
+
+
+.icon-phone:before {
+  content: "";
+  display: inline-block;
+  width:  40px;
+  height: 41px;
+
+  background: url(img/icon-phone.png) top left no-repeat;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}

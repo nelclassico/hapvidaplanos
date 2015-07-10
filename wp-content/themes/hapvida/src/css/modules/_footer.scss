@@ -1,0 +1,34 @@
+/* *************************************** *
+*
+*	Rodapé
+* Contém:
+*   .site-footer
+*   .site-info
+*   .copyright
+*
+* **************************************** */
+
+.site-footer {
+  margin-top: rem(64);
+  border-top: 4px solid $c-bg;
+  h4 {
+    font-size: rem(14);
+    margin: 0 0 rem(14) 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+.site-info {
+  padding-top:    rem(64);
+  padding-bottom: rem(44);
+}
+
+.copyright {
+  padding: rem(32) rem(45);
+
+  color: $c-menu-a;
+  background: $c-bg;
+  text-align: center;
+}

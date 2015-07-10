@@ -1,0 +1,88 @@
+/////////////////////////////////////
+//
+// Variáveis
+// **********************
+// Contem todas as variáveis do
+// projeto
+//
+/////////////////////////////////////
+
+
+
+// Cores
+// **********************
+// Todas as variaveis de cores
+// começam o prefixo "c-"
+/////////////////////////////////////
+$c-brand:        #007858;
+$c-menu-bg:      rgba(0,120,88,0.95);
+$c-menu-active:  #39b54a;
+$c-menu-border:  #2b9139;
+
+$c-bg:     #eef2f1;
+$c-menu-a: #536459;
+
+$c-button-start: #007858;
+$c-button-end:   #03aa7d;
+
+$c-input-bg:            #ddede2;
+$c-input-border:        #acacac;
+$c-input-border-search: #82ca9c;
+
+$c-highlight-bg: #c5ebd2;
+
+$c-bullets:        #c7ecd3;
+$c-bullets-active: #3cb878;
+
+$c-orange:       #d58301;
+$c-orange-light: #ffae00;
+
+$c-title: #00815e;
+
+$c-modal-bg:    #ebebeb;
+$c-modal-green: #117d62;
+$c-modal-red:   #e30613;
+$c-modal-click: #4f615c;
+
+$c-sidebar-title: #676161;
+
+
+// Fontes
+// **********************
+// Todas as variaveis de fontes
+// começam o prefixo "f-"
+/////////////////////////////////////
+$f-display: 'Avenir Roman', Helvetica, Arial;
+$f-body:    'Avenir', Helvetica, Arial;
+
+
+
+// Tamanhos - texto
+// **********************
+// Todas as variaveis de tamanho
+// começam o prefixo "t-"
+/////////////////////////////////////
+$t-base:        16px;
+$t-base-mobile: 14px;
+
+
+
+// Media Queries
+// **********************
+// Existe 1 ponto de "quebra"
+// global e dois específicos para
+// o cabeçalho
+// ($vp-large-mid e $vp-large-plus).
+/////////////////////////////////////
+$vp-large:      750px;
+$vp-large-mid:  868px;
+$vp-large-plus: 1084px;
+
+
+// Helpers
+// **********************
+// [1] - Largura da página,
+// afeta todos os
+// elementos .container
+/////////////////////////////////////
+$container-width: 1152px; // [1]

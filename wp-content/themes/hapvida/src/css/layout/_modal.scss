@@ -1,0 +1,90 @@
+/* *************************************** *
+*
+*	MOdal seleção de cidade
+*   Contém:
+*     .selector-overlay
+*
+*
+* **************************************** */
+
+.selector-overlay {
+  position: fixed;
+  display: none;
+  top:  0;
+  left: 0;
+  width:  100%;
+  height: 100%;
+  z-index: 800;
+  
+  background: rgba(255,255,255,.3);
+}
+
+.selector-content {
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 100%;
+  width:  600px;
+  padding: 40px;
+  
+  background: $c-modal-bg;
+  transition: all .4s ease-in;
+  opacity: 0;
+  text-align: center;
+}
+
+.selector-titles {
+  h3 {
+    margin-bottom: 0;
+    color: $c-modal-green;
+  }
+  h4 {
+    margin-top: 0;
+  }
+}
+
+.selector-cities {
+  list-style: none;
+  li {
+    margin-bottom: 18px;
+  }
+  a {
+    display: inline-block;
+    border-bottom: 2px solid rgba($c-brand, .3);
+    text-transform: uppercase;
+  }
+}
+
+.selector-client {
+  h3 {
+    margin-bottom: 0;
+    color: $c-modal-red;
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    color: $c-modal-click;
+  }
+}
+
+.has-modal {
+  overflow: hidden;
+  .wrap {
+    transition: all .5s ease-out;
+    filter: blur(3px);
+  }
+  .selector-content {
+    opacity: 1;
+  }
+  .selector-overlay {
+    display: block;
+  }
+}
+
+#modal-close {
+  position: absolute;
+  top:   5px;
+  right: 5px;
+}

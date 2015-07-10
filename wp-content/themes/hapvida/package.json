@@ -1,0 +1,25 @@
+{
+  "name": "Polygon-Framework",
+  "version": "0.0.3",
+  "description": "A flexible SASS based boilerplate built with small and medium projects in mind. It doesn't provide any style. Use it as a base for your pages and web apps.",
+  "keywords": [
+    "framework css",
+    "css",
+    "scss"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-autoprefixer": "~0.7.3",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-imagemin": "~0.7.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-csso": "~0.6.1",
+    "grunt-match-media": "0.0.5",
+    "grunt-remfallback": "0.0.5",
+    "grunt-sass": "^1.0.0"
+  },
+  "author": "Elton Mesquita @eltonfmesquita",
+  "license": "MIT (http://opensource.org/licenses/MIT)"
+}

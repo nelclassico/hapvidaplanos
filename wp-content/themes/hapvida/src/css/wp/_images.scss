@@ -1,0 +1,53 @@
+/* *************************************** *
+*
+*	WP Imagens
+* Contém:
+*   .alignleft
+*
+* **************************************** */
+
+.post-featured-image {
+  max-width: 100%;
+  img {
+    display: block;
+  }
+}
+
+.alignleft {
+  max-width: 100%;
+  margin: 16px auto;
+  @media only screen and (min-width: $vp-large) {
+    float: left;
+    margin: 16px 32px 16px 0;
+  }
+}
+
+.alignright {
+  max-width: 100%;
+  margin: 16px auto;
+  @media only screen and (min-width: $vp-large) {
+    float: right;
+    margin: 16px 0 16px 32px;
+  }
+}
+
+.aligncenter {
+  max-width: 100%;
+  margin: 16px auto;
+}
+
+.wp-caption {
+  padding: 5px;
+
+  background: $c-bg;
+  img {
+    display: block;
+    margin: auto;
+  }
+  .wp-caption-text {
+    margin: 0;
+
+    color: lighten(#000, 40%);
+    text-align: center;
+  }
+}

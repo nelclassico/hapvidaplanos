@@ -1,0 +1,27 @@
+/* *************************************** *
+*
+*	Sidebar layouts
+*   Contém:
+*     .side-title
+*
+*
+* **************************************** */
+
+#sidebar {
+  @media only screen and (min-width: $vp-large) {
+    padding-top: 67px;
+  }
+  ul {
+    list-style: none;
+  }
+}
+
+.side-title {
+  margin-bottom: rem(24);
+
+  color: $c-sidebar-title;
+
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}

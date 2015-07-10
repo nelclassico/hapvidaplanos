@@ -1,0 +1,54 @@
+/* *************************************** *
+*
+*	Pontos de atendimento
+*   Contém:
+*     .side-title
+*
+*
+* **************************************** */
+
+.list-locations {
+  list-style: none;
+  font-size: em(14,16);
+  h4 {
+    margin-bottom: 0;
+    
+    font-size: em(14,16);
+    text-transform: uppercase;
+  }
+  p {
+    margin-top: 0;
+  }
+  li {
+    padding-left: 25px;
+    background: url(img/icon-pin.png)left top no-repeat;
+  }
+}
+
+.search-wrap {
+  position: relative;
+  max-width: 100%;
+  width: 380px;
+}
+
+.search-button {
+  position: absolute;
+  top:   9px;
+  right: 14px;
+  width:  36px;
+  height: 25px;
+
+  background: url(img/icon-search.png)right top no-repeat;
+  border-left: 1px solid $c-input-border-search;
+  &:hover {
+    background: url(img/icon-search.png)right top no-repeat;
+  }
+}
+
+.pagination {
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}

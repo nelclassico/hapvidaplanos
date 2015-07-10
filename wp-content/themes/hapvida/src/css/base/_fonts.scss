@@ -1,0 +1,19 @@
+/* *************************************** *
+*
+*	Font faces
+*   Carrega todas as fontes do projeto
+*   utilizando a propriedade @font-face
+*
+* **************************************** */
+
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/avenir-roman.eot');
+    src: url('fonts/avenir-roman.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avenir-roman.woff') format('woff'),
+         url('fonts/avenir-roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

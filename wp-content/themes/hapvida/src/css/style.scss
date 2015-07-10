@@ -1,0 +1,54 @@
+/* *************************************** *
+*
+*	Polygon.css Framework by @eltonfmesquita
+*	A CSS boilerplate in SASS for the
+*	today's and tomorrow's web.
+*
+* **************************************** */
+
+
+// Imports
+// Importa todos os arquivos
+// para gerar o style.css final
+///////////////////////////////////
+
+// Variáveis
+@import "vars";
+
+// Mixins e funções
+@import "mixins/functions";
+
+// Base do projeto
+@import "base/fonts";
+@import "base/normalize";
+@import "base/helpers";
+@import "base/resets";
+@import "base/base";
+@import "base/type";
+@import "base/grid";
+
+// Elementos
+@import "elements/nav";
+@import "elements/buttons";
+@import "elements/icons";
+@import "elements/inputs";
+
+// Módulos
+@import "modules/header";
+@import "modules/footer";
+@import "modules/sidebar";
+
+//Layouts
+@import "layout/highlights";
+@import "layout/home";
+@import "layout/news";
+@import "layout/locations";
+@import "layout/modal";
+
+// CSS de terceiros
+@import "vendor/swipe";
+
+// CSS específico do Wordpress
+@import "wp/images";
+@import "wp/links";
+@import "wp/type";

@@ -1,0 +1,360 @@
+/* @media only screen and (min-width: 750px) { */
+
+.container {
+  padding: 0 34px;
+  padding: 0 2.125rem;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+html {
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.grid {
+  margin: 0 0 20px 0;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+[class*="col-small-"],
+[class*="col-large-"] {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.col-large-1 {
+  width: 8.3333333333%;
+}
+
+.col-large-2 {
+  width: 16.6666666667%;
+}
+
+.col-large-3 {
+  width: 25%;
+}
+
+.col-large-4 {
+  width: 33.3333333333%;
+}
+
+.col-large-5 {
+  width: 41.6666666667%;
+}
+
+.col-large-6 {
+  width: 50%;
+}
+
+.col-large-7 {
+  width: 58.3333333333%;
+}
+
+.col-large-8 {
+  width: 66.6666666667%;
+}
+
+.col-large-9 {
+  width: 75%;
+}
+
+.col-large-10 {
+  width: 83.3333333333%;
+}
+
+.col-large-11 {
+  width: 91.6666666667%;
+}
+
+.col-large-12 {
+  width: 100%;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.nav .menu {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.nav--main {
+  position: static;
+  width: 100%;
+  margin-top: 24px;
+  margin-top: 1.5rem;
+  overflow: hidden;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.nav--main .menu {
+  position: static;
+  height: auto;
+  padding: 0;
+  background: transparent;
+  visibility: visible;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  text-align: left;
+}
+
+.nav--main .menu a {
+  color: #536459;
+  padding: 0.75em 0.6875em;
+}
+
+.nav--main .menu li {
+  display: inline-block;
+  border: 0;
+}
+
+.nav--main .menu li:last-child {
+  border-bottom: 0;
+}
+
+.nav--main .menu li:hover,
+.nav--main .menu li:active {
+  background: transparent;
+}
+
+.nav--main .menu li:hover a,
+.nav--main .menu li:active a {
+  color: #007858;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 868px) { */
+
+.nav--main .menu {
+  padding-right: 90px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.nav-wrap {
+  background: #eef2f1;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.icon-menu {
+  display: none;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.site-header {
+  padding-top: 16px;
+  padding-top: 1rem;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.logo-hapvida,
+.logo-sl91 {
+  padding-right: 34px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.brands:after {
+  content: none;
+  display: none;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.city-selector {
+  width: auto;
+  float: left;
+  padding: 0;
+  padding-top: 2.45em;
+  margin: 0;
+  color: #536459;
+  background: transparent;
+}
+
+.city-selector span {
+  display: block;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.city-selected {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.city-selected:after {
+  content: "";
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.logo-sl91 {
+  padding-top: 0;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 868px) { */
+
+.header-cta:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 124px;
+  height: 198px;
+  z-index: 100;
+  pointer-events: none;
+  background: url(img/figure-bee.png) top left no-repeat;
+}
+
+.header-cta .btn {
+  position: relative;
+  top: 5px;
+  margin-right: 90px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.header-cta {
+  display: block;
+  position: relative;
+  float: right;
+}
+
+.header-cta p {
+  float: left;
+  margin-right: 0.9166666667em;
+  margin-bottom: 0;
+  color: #536459;
+  font-size: 24px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.header-cta span {
+  font-size: 0.7666666667em;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+#sidebar {
+  padding-top: 67px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.block-highlight--orange {
+  text-align: left;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.block-highlight--orange .btn--line {
+  margin-left: 33px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.plan-one p:last-child {
+  margin-top: 66px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.plan-three p:last-child {
+  margin-top: 45px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.alignleft {
+  float: left;
+  margin: 16px 32px 16px 0;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.alignright {
+  float: right;
+  margin: 16px 0 16px 32px;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.single-post .title {
+  float: left;
+}
+
+/* } */
+
+/* @media only screen and (min-width: 750px) { */
+
+.single-post .post-meta {
+  float: right;
+  margin-top: 24px;
+  margin-top: 1.5rem;
+}
+
+/* } */

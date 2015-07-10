@@ -1,0 +1,49 @@
+/***************************
+*
+*       Helpers
+*
+***************************/
+
+
+
+
+// Clearfix
+///////////////////////////////////
+%clearfix,
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Container de uso geral
+*  largura máxima da página
+**********************************/
+.container {
+	width: $container-width;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 rem(14,14);
+	position: relative;
+  @media only screen and (min-width: $vp-large) {
+    padding: 0 rem(34,16);
+  }
+	&:after {
+		@extend %clearfix;
+	}
+  &.no-padding {
+    padding: 0;
+  }
+}
+
+
+
+/* Helpers para texto
+**********************************/
+
+.txt-left    { text-align: left;    }
+.txt-center  { text-align: center;  }
+.txt-right   { text-align: right;   }
+.txt-justify { text-align: justify; }

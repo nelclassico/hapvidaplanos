@@ -1,0 +1,94 @@
+/* *************************************** *
+*
+*	Hightlights
+* Contém:
+*   .block-highlight
+*
+*
+* **************************************** */
+
+.block-highlight {
+  background: $c-highlight-bg;
+}
+
+// Formulário da página inicial
+.cta-form--wrap {
+  width: 408px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem; // 14px mobile e 16px tablet e acima
+
+  h3 {
+    margin-top: rem(12);
+    margin-bottom: rem(8);
+    color: $c-menu-a;
+    font-size: rem(24);
+    text-align: center;
+    .title-sub {
+      font-size: rem(20);
+    }
+  }
+  h4 {
+    color: $c-menu-a;
+    text-transform: uppercase;
+  }
+  .form-radios {
+    padding-left: em(15,15);
+    font-size: 15px;
+    text-transform: uppercase;
+    label {
+      display: inline-block;
+      margin-right: em(24,15);
+      padding-bottom: em(20,15);
+    }
+    h4 {
+      margin: rem(20) 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+
+
+.block-highlight--orange {
+  padding: rem(42) 0;
+  color: #fff;
+  background: $c-orange;
+  background: linear-gradient( to top, $c-orange, $c-orange-light );
+  text-align: center;
+  @media only screen and (min-width: $vp-large) {
+    text-align: left;
+  }
+  h3 {
+    margin: 0;
+    margin-bottom: em(30,28);
+
+    font-size: rem(28);
+    font-weight: normal;
+    text-align: center;
+  }
+  .cta-price--wrap {
+    max-width: 415px;
+    margin: 0 auto;
+  }
+  .cta-price--tag {
+    display: block;
+    width: 100%;
+
+    font-size: rem(21);
+  }
+  .cta-price {
+    display: block;
+    width: 100%;
+
+    font-size: rem(46);
+    font-weight: bold;
+  }
+  .btn--line {
+    margin-top: 23px;
+    @media only screen and (min-width: $vp-large) {
+      margin-left: 33px;
+    }
+  }
+}

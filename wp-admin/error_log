@@ -1,0 +1,3 @@
+[29-Jun-2015 18:47:06] PHP Parse error:  syntax error, unexpected '<' in /home/plano076/public_html/wp-content/themes/hapvida/functions.php on line 127
+[05-Jul-2015 03:01:37] PHP Fatal error:  Cannot redeclare wpmidia_enqueue_masked_input() (previously declared in /home/plano076/public_html/wp-content/themes/hapvida/functions.php:170) in /home/plano076/public_html/wp-content/themes/hapvida/functions.php on line 203
+[05-Jul-2015 03:03:38] PHP Fatal error:  Cannot redeclare wpmidia_enqueue_masked_input() (previously declared in /home/plano076/public_html/wp-content/themes/hapvida/functions.php:170) in /home/plano076/public_html/wp-content/themes/hapvida/functions.php on line 203

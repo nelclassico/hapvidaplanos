@@ -1,0 +1,29 @@
+/* *************************************** *
+*
+*	WP Tipografia e listas
+* Contém:
+*   .post-categories
+*
+* **************************************** */
+
+.post-categories {
+  list-style: none;
+  li {
+    display: inline-block;
+    padding-right: 16px;
+  }
+}
+
+.single-post {
+  .title {
+    @media only screen and (min-width: $vp-large) {
+      float: left;
+    }
+  }
+  .post-meta {
+    @media only screen and (min-width: $vp-large) {
+      float: right;
+      margin-top: rem(24);
+    }
+  }
+}

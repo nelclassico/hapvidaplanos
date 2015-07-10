@@ -1,0 +1,100 @@
+/* *************************************** *
+*
+*	Inputs
+* Contém:
+*   input
+*   textarea
+*
+*
+* **************************************** */
+
+::-webkit-input-placeholder {
+   color: $c-menu-a;
+   text-transform: uppercase;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $c-menu-a;
+   text-transform: uppercase;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $c-menu-a;
+   text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+   color: $c-menu-a;
+   text-transform: uppercase;
+}
+
+
+input[type="text"],
+input[type="search"],
+input[type="url"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: rem(14);
+  min-height: 42px;
+  margin-bottom: 4px;
+
+  background: $c-input-bg;
+  border: 1px solid $c-input-border;
+}
+
+input[type="radio"] {
+  position: relative;
+  width:  18px;
+  height: 18px;
+
+  background: $c-input-bg;
+  border: 1px solid $c-input-border;
+  border-radius: 50px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  vertical-align: text-top;
+  &:checked:after {
+    position: absolute;
+    top:  4px;
+    left: 4px;
+    content: "";
+    width:  8px;
+    height: 8px;
+
+    background: $c-menu-a;
+    border-radius: 50px;
+  }
+}
+
+input[type="search"] {
+  box-sizing: border-box;
+  height: 42px;
+  
+  border-color: $c-input-border-search;
+  background: $c-bg;
+  &::-webkit-input-placeholder {
+   text-transform: none;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+     text-transform: none;
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+     text-transform: none;
+  }
+
+  &:-ms-input-placeholder {
+     text-transform: none;
+  }
+}

@@ -1,0 +1,57 @@
+/* *************************************** *
+*
+*	Botões
+* Contém:
+*   .btn
+*   .btn--small
+*   .btn--large
+*
+* **************************************** */
+
+.btn,
+.button,
+button {
+  display: inline-block;
+  padding: em(16,24);
+
+  color: #fff;
+  background: $c-button-start;
+  background: linear-gradient($c-button-end, $c-button-start);
+  border: 0;
+  transition: all .4s linear;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  font-weight: bold;
+  &:hover {
+    color: #fff;
+    background: darken($c-button-start, 5%);
+    background: linear-gradient(darken($c-button-end, 5%), darken($c-button-start, 5%));
+  }
+}
+
+
+.btn--large {
+  font-size: rem(24);
+}
+
+.btn--medium {
+  font-size: rem(20);
+  padding: rem(6) rem(26);
+}
+
+.btn--wide {
+  padding: em(16,24) em(36,24);
+}
+
+.btn--line {
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  &:hover {
+    color: $c-orange;
+    background: #fff;
+  }
+}
