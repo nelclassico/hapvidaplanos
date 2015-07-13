@@ -55,7 +55,7 @@
 <?php get_footer(); // This fxn gets the footer.php file and renders it ?>
 <div class="selector-overlay" id="select-city">
   <div class="selector-content">
-    <img src="http://planosdesaudedefortaleza.com.br/wp-content/themes/hapvida/img/logo-hapvida.png"  alt="Hapvida Saúde" style="width: 125px;">
+    <img src="http://hapvidaplanosdesaude.com.br/wp-content/themes/hapvida/img/logo-hapvida.png"  alt="Hapvida Saúde" style="width: 125px;">
     
     <div class="selector-titles">
       <h3>BEM VINDO AO HAPVIDA!</h3>
@@ -63,8 +63,8 @@
     </div>
     
     <ul class="selector-cities">
-      <li><a href="http://planosdesaudedefortaleza.com.br/fortaleza">Fortaleza</a></li>
-      <li><a href="http://planosdesaudedefortaleza.com.br/salvador">Salvador</a></li>
+      <li><a href="http://hapvidaplanosdesaude.com.br/fortaleza">Fortaleza</a></li>
+      <li><a href="http://hapvidaplanosdesaude.com.br/salvador">Salvador</a></li>
     </ul>
     
     <div class="selector-client">

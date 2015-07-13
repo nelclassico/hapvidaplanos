@@ -110,7 +110,7 @@ window._fbq.push(['track', '6022876241478', {'value':'0.01','currency':'BRL'}]);
 </script>
 <noscript><img height=1' width='1' alt='' style='display:none' src='https://www.facebook.com/tr?ev=6022876241478&amp;cd[value]=0.01&amp;cd[currency]=BRL&amp;noscript=1' /></noscript>";
     $msg = "Sua mensagem foi enviada com sucesso.";
-    echo "<script>location.href='http://planosdesaudedefortaleza.com.br'; alert('$msg');</script>";
+    echo "<script>location.href='http://hapvidaplanosdesaude.com.br'; alert('$msg');</script>";
 
   }
   //====================================================

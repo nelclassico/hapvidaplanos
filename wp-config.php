@@ -33,8 +33,8 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** O tipo de collate do banco de dados. Não altere isso se tiver dúvidas. */
 define('DB_COLLATE', '');
-define('WP_HOME','http://planosdesaudedefortaleza.com.br');
-define('WP_SITEURL','http://planosdesaudedefortaleza.com.br');
+define('WP_HOME','http://hapvidaplanosdesaude.com.br');
+define('WP_SITEURL','http://hapvidaplanosdesaude.com.br');
 
 /**#@+
  * Chaves únicas de autenticação e salts.

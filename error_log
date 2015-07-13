@@ -98,3 +98,5 @@
 [08-Jul-2015 18:56:16] PHP Parse error:  syntax error, unexpected T_ELSE in /home/plano076/public_html/wp-content/themes/hapvida/header-teste.php on line 111
 [08-Jul-2015 18:56:19] PHP Parse error:  syntax error, unexpected T_ELSE in /home/plano076/public_html/wp-content/themes/hapvida/header-teste.php on line 111
 [09-Jul-2015 13:59:27] PHP Parse error:  syntax error, unexpected ')' in /home/plano076/public_html/wp-content/themes/hapvida/header-teste.php on line 178
+[10-Jul-2015 18:17:43] PHP Warning:  require(/home/plano076/public_html/hapvidaplanosdesaude.com.br/wp-includes/load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/plano076/public_html/hapvidaplanosdesaude.com.br/wp-settings.php on line 21
+[10-Jul-2015 18:17:43] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/plano076/public_html/hapvidaplanosdesaude.com.br/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/plano076/public_html/hapvidaplanosdesaude.com.br/wp-settings.php on line 21

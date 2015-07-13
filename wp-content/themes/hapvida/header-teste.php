@@ -93,7 +93,7 @@
 			<span class="city-selected">
 				Fortaleza/ Salvador
 			</span>
-			<a class="city-selection" id="city-selector" href="http://planosdesaudedefortaleza.com.br">
+			<a class="city-selection" id="city-selector" href="http://hapvidaplanosdesaude.com.br">
 				Alterar localidade
 			</a>
 		</div>
@@ -137,12 +137,12 @@
 			<div class="container">
 				<div class="menu-principal-container">
 					<ul id="menu-principal" class="menu">
-						<li id="menu-item-298" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-298"><a href="http://planosdesaudedefortaleza.com.br/salvador"> Início</a></li>
-						<li id="menu-item-299" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-299"><a href="http://planosdesaudedefortaleza.com.br/category/noticias-salvador/"> Notícias </a></li>
-						<li id="menu-item-408" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-408"><a href="http://planosdesaudedefortaleza.com.br/pontos-de-atendimento-salvador/">Pontos de atendimentos</a></li>
-						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://planosdesaudedefortaleza.com.br/servicos-online-salvador/">Serviços online</a></li>
-						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://planosdesaudedefortaleza.com.br/solicitar-proposta-salvador/">Solicitar proposta</a></li>
-						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://planosdesaudedefortaleza.com.br/sl91-salvador/">Sl91</a></li>				
+						<li id="menu-item-298" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-298"><a href="http://hapvidaplanosdesaude.com.br/salvador"> Início</a></li>
+						<li id="menu-item-299" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-299"><a href="http://hapvidaplanosdesaude.com.br/category/noticias-salvador/"> Notícias </a></li>
+						<li id="menu-item-408" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-408"><a href="http://hapvidaplanosdesaude.com.br/pontos-de-atendimento-salvador/">Pontos de atendimentos</a></li>
+						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://hapvidaplanosdesaude.com.br/servicos-online-salvador/">Serviços online</a></li>
+						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://hapvidaplanosdesaude.com.br/solicitar-proposta-salvador/">Solicitar proposta</a></li>
+						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://hapvidaplanosdesaude.com.br/sl91-salvador/">Sl91</a></li>				
 					</ul>
 				</div>
 			</div>
@@ -163,12 +163,12 @@
 			<div class="container">
 				<div class="menu-principal-container">
 					<ul id="menu-principal" class="menu">
-						<li id="menu-item-298" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-298"><a href="http://planosdesaudedefortaleza.com.br/fortaleza"> Início</a></li>
-						<li id="menu-item-299" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-299"><a href="http://planosdesaudedefortaleza.com.br/category/fortaleza"> Notícias </a></li>
-						<li id="menu-item-408" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-408"><a href="http://planosdesaudedefortaleza.com.br/pontos-de-atendimento/">Pontos de atendimentos</a></li>
-						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://planosdesaudedefortaleza.com.br/servicos-online/">Serviços online</a></li>
-						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://planosdesaudedefortaleza.com.br/solicitar-proposta/">Solicitar proposta</a></li>
-						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://planosdesaudedefortaleza.com.br/sl91/">Sl91</a></li>				
+						<li id="menu-item-298" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-298"><a href="http://hapvidaplanosdesaude.com.br/fortaleza"> Início</a></li>
+						<li id="menu-item-299" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-299"><a href="http://hapvidaplanosdesaude.com.br/category/fortaleza"> Notícias </a></li>
+						<li id="menu-item-408" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-408"><a href="http://hapvidaplanosdesaude.com.br/pontos-de-atendimento/">Pontos de atendimentos</a></li>
+						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://hapvidaplanosdesaude.com.br/servicos-online/">Serviços online</a></li>
+						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://hapvidaplanosdesaude.com.br/solicitar-proposta/">Solicitar proposta</a></li>
+						<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-92"><a href="http://hapvidaplanosdesaude.com.br/sl91/">Sl91</a></li>				
 					</ul>
 				</div>
 			</div>

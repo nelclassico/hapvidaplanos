@@ -91,7 +91,7 @@
 			<span class="city-selected">
 				Fortaleza/ Salvador
 			</span>
-			<a class="city-selection" id="city-selector" href="http://planosdesaudedefortaleza.com.br">
+			<a class="city-selection" id="city-selector" href="http://hapvidaplanosdesaude.com.br">
 				Alterar localidade
 			</a>
 		</div>
